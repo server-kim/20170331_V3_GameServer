@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\MonLib">
+      <UniqueIdentifier>{5a162f91-552f-433e-9ea6-2dd54500c602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Config">
+      <UniqueIdentifier>{36388077-c794-44d2-9649-b2cbf119ff4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameDefine">
+      <UniqueIdentifier>{c94f6d22-ee78-4456-a8b2-ffccfd773f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameServer">
+      <UniqueIdentifier>{743ed0d8-22df-41da-9513-de36a16fef71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameServer\Contents">
+      <UniqueIdentifier>{19bff589-d8c2-41ad-af4e-4eefc2dfe715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameServer\DB">
+      <UniqueIdentifier>{1617a5c4-c096-4d4c-a3dd-4235c7ec22e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameServer\ServerToServer">
+      <UniqueIdentifier>{9c5c4013-eb93-49a4-b864-2e1437db4fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameServer\Util">
+      <UniqueIdentifier>{822bf3e6-f9c5-47bc-b97d-7462157b7276}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContentsDefine.h">
+      <Filter>소스 파일\GameDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDBDefine.h">
+      <Filter>소스 파일\GameDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerDefine.h">
+      <Filter>소스 파일\GameDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackPattern.h">
+      <Filter>소스 파일\GameServer\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="CGamePathFinder.h">
+      <Filter>소스 파일\GameServer\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>소스 파일\GameServer\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="CDBAccount.h">
+      <Filter>소스 파일\GameServer\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="CDBGame.h">
+      <Filter>소스 파일\GameServer\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="CDBLog.h">
+      <Filter>소스 파일\GameServer\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="CLanClientAgent.h">
+      <Filter>소스 파일\GameServer\ServerToServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CLanClientLogin.h">
+      <Filter>소스 파일\GameServer\ServerToServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CLanClientMonitoring.h">
+      <Filter>소스 파일\GameServer\ServerToServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameServerConfig.h">
+      <Filter>소스 파일\GameServer\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TotalHeader.h">
+      <Filter>소스 파일\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameServer.h">
+      <Filter>소스 파일\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CDBConnector.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CDBConnectorTLS.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CJPS.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CLanClient.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CLanServer.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CMAP.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CMMOServer.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CMMOServerV2.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CMMOSession.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CNetClient.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CNetServer.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CNetServerEx.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CNetServerEx2.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CNetServerEx3.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CNetServerEx4.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\Common.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CommonProtocol.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CrashDump.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\CUDPModule.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\LibHeader.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\LockfreeMemoryPool.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\LockfreeQueue.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\LockfreeStack.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\MemoryPoolTLS.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\MMOServerDefine.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\MyUtil.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\Packet.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\Parser.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\Profiling.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\SocketPoolEx.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\StreamingQueue.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\SystemLog.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\TimeManager.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MonLib\WParser.h">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackPattern.cpp">
+      <Filter>소스 파일\GameServer\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="CGamePathFinder.cpp">
+      <Filter>소스 파일\GameServer\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>소스 파일\GameServer\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="CDBAccount.cpp">
+      <Filter>소스 파일\GameServer\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="CDBGame.cpp">
+      <Filter>소스 파일\GameServer\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="CDBLog.cpp">
+      <Filter>소스 파일\GameServer\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="CLanClientAgent.cpp">
+      <Filter>소스 파일\GameServer\ServerToServer</Filter>
+    </ClCompile>
+    <ClCompile Include="CLanClientLogin.cpp">
+      <Filter>소스 파일\GameServer\ServerToServer</Filter>
+    </ClCompile>
+    <ClCompile Include="CLanClientMonitoring.cpp">
+      <Filter>소스 파일\GameServer\ServerToServer</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameServerConfig.cpp">
+      <Filter>소스 파일\GameServer\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameServer.cpp">
+      <Filter>소스 파일\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CDBConnector.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CDBConnectorTLS.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CJPS.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CLanClient.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CLanServer.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CMAP.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CMMOServer.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CMMOServerV2.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CMMOSession.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CNetClient.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CNetServer.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CNetServerEx.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CNetServerEx2.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CNetServerEx3.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CNetServerEx4.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\CrashDump.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\LockfreeQueue.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\MyUtil.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\Packet.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\Parser.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\Profiling.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\StreamingQueue.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\SystemLog.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\TimeManager.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonLib\WParser.cpp">
+      <Filter>소스 파일\MonLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameServer.cnf">
+      <Filter>소스 파일\Config</Filter>
+    </None>
+  </ItemGroup>
+</Project>
